@@ -1,4 +1,4 @@
-*{
+* {
   /* border: 3px solid red; */
   margin: 0px;
   padding: 0px;
@@ -16,7 +16,7 @@
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    overflow: hidden;
+  overflow: hidden;
   position: fixed;
   /* margin-top: 0px; */
 }
@@ -32,7 +32,8 @@
 }
 .links > a:hover {
   color: black;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* CSS FOR BODY PART */
@@ -94,6 +95,15 @@ h2 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.page:hover {
+  /* background: rgb(238,174,202); */
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
 .page > p {
   font-family: cursive;
   font-size: 20px;
@@ -106,7 +116,6 @@ h2 {
   width: 230px;
   margin: 20px;
   padding: 5px;
-
 }
 
 a > img {
@@ -194,5 +203,14 @@ a > img {
   .last {
     display: block;
     flex-direction: column;
+  }
+
+  .page:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
   }
 }
