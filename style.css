@@ -87,6 +87,7 @@ h2 {
 }
 
 .page {
+  /* display: none; */
   background-color: cadetblue;
   margin: 20px;
   padding: 10px;
@@ -145,6 +146,10 @@ a > img {
   width: auto;
   font-size: 20px;
   letter-spacing: 2px;
+}
+
+.ll>iframe{
+  width: 100%;
 }
 @media only screen and (max-width: 1200px) {
   body {
@@ -212,5 +217,9 @@ a > img {
       rgba(238, 174, 202, 1) 0%,
       rgba(148, 187, 233, 1) 100%
     );
+  }
+
+  .ll>iframe{
+    display: none;
   }
 }
